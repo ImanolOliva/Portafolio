@@ -1,0 +1,35 @@
+.container{
+    display: block;
+    padding: 0px;
+   
+}
+.section-present{   
+    border-bottom: 1px  outset black;
+}
+.container ul{
+    padding: 2px;
+    list-style: none;
+    font-family: "Neue-Montreal";
+    font-weight: 600px;
+    font-size: 17px;
+    font-feature-settings: "palt";
+} 
+.container ul li{
+    padding: 10px;
+   
+}
+.container ul a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   
+}
+
+@font-face {
+    font-family:"Neue-Montreal";
+    src: url('../../../assets/Neue-Montreal/NeueMontreal-Medium.otf');
+}
+
+.section-present{
+    opacity: .5;
+}

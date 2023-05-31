@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+
+html{
+    background-color: #cecaca;
+    padding: 15px;
+    box-sizing: border-box;
+
+}
+body{
+    border: 1px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color:rgb(228, 226, 226);
+
+}
+ 

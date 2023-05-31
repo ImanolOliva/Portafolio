@@ -1,0 +1,20 @@
+.container{
+    display:flex;
+    justify-content: right;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.container pre{
+    font-family: "Neue-Montreal";
+    font-weight: 600px;
+    font-size: 17px;
+    font-feature-settings: "palt";
+    padding: 15px;
+
+}
+
+@font-face {
+    font-family:"Neue-Montreal";
+    src: url('../../../assets/Neue-Montreal/NeueMontreal-Medium.otf');
+}
