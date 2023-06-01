@@ -7,7 +7,7 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { ProyectosComponent } from './proyectos/proyectos.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { ReactiveFormsModule } from '@angular/forms';
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -21,7 +21,8 @@ import { ReactiveFormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     NoopAnimationsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ]
 })
 export class MainModule { }

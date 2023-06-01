@@ -1,34 +1,36 @@
 <br>
 <br>
+
 <div class="container">
-  <app-info></app-info>
-    <form [formGroup]="formulario" (ngSubmit)="enviarDatos()">
-        <div class="nombre">
-          <label for="nombre"></label>
-          <input type="text" id="nombre" placeholder="NOMBRE" formControlName="nombre">
+    <form  class="formulario" [formGroup]="formulario" (ngSubmit)="enviarDatos()">
+      <h1>CONTACTAME</h1>
+      <div class="nombre">
+          <label class="form-label" for="nombre"></label>
+          <input  class="form-control" type="text" id="nombre" placeholder="NOMBRE" formControlName="nombre">
         </div>
       
         <div class="email">
-          <label  for="email"></label>
-          <input type="email" id="email" placeholder="EMAIL" formControlName="email">
+          <label class="form-label" for="email"></label>
+          <input class="form-control" type="email" id="email" placeholder="EMAIL" formControlName="email">
         </div>
 
         <div class="telefono">
-            <label for="telefono"></label>
-            <input type="tel" id="telefono" placeholder="TELEFONO" formControlName="telefono">
+            <label class="form-label" for="telefono"></label>
+            <input  class="form-control" type="tel" id="telefono" placeholder="TELEFONO" formControlName="telefono">
         </div>
     
         <div class="mensaje">
-          <label for="mensaje"></label>
-          <textarea id="mensaje" formControlName="mensaje" placeholder="MENSAJE"></textarea>
+          <label class="form-label" for="mensaje"></label>
+          <textarea class="form-control" id="mensaje" formControlName="mensaje" placeholder="MENSAJE"></textarea>
         </div>
-
+       
         <div class="button">
             <button type="submit" [disabled]="!formulario.valid">Enviar</button>
         </div>
       </form>   
-
 </div>
+<app-info></app-info>
+
 
 
 

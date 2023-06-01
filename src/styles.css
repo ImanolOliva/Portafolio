@@ -1,3 +1,7 @@
+*{
+    flex-wrap: wrap;
+}
+
 
 html{
     background-color: #cecaca;

@@ -1,5 +1,6 @@
 .container{
     display:flex;
+    flex-wrap: wrap;
     justify-content: right;
     padding-right: 0px;
     margin-right: 0px;
