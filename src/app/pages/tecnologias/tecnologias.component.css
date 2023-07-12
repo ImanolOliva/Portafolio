@@ -1,0 +1,34 @@
+.carousel-container {
+    overflow: hidden;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-list {
+    display: flex;
+    list-style-type: none;
+    border-bottom: 1px solid black;
+
+  }
+  
+  .icon-item {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    border: 1px solid black;
+    transition: transform 0.3s ease;
+    /* Estilos adicionales para cada ícono */
+  }
+  .icon-item:hover {
+    animation: moveIcon 1s alternate infinite;
+  }
+  @keyframes moveIcon {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(10px);
+    }
+  }
+  

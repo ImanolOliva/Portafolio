@@ -2,12 +2,11 @@
     flex-wrap: wrap;
 }
 
-
 html{
     background-color: #cecaca;
     padding: 15px;
     box-sizing: border-box;
-
+        
 }
 body{
     border: 1px solid black;
@@ -16,4 +15,4 @@ body{
     background-color:rgb(228, 226, 226);
 
 }
- 
+

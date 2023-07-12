@@ -5,7 +5,10 @@
 }
 .section-present{   
     border-bottom: 1px  outset black;
+    opacity: .5;
+    display: flex;
 }
+
 .container ul{
     padding: 2px;
     list-style: none;
@@ -30,6 +33,3 @@
     src: url('../../../assets/Neue-Montreal/NeueMontreal-Medium.otf');
 }
 
-.section-present{
-    opacity: .5;
-}

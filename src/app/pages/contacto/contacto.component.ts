@@ -39,11 +39,14 @@ export class ContactoComponent implements OnInit {
   
       this.mensajeService.postMessage(usuario).subscribe({
         next: (data: Usuarios)=>{
-          console.log("soy la data" + data);
+          alert("Muchas gracias por comunicarte a la brevedad te estare respondiendo")
           this.formulario.reset()
         },
         error: (err) =>{
           console.log(err);
+          console.log("estoy en el error");
+          this.formulario.reset()
+
         },
         complete() {
           console.log("dale. Todo ok");

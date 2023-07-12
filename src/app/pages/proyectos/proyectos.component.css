@@ -1,0 +1,65 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 270px;
+    
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.card-image{
+    height: 240px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+}
+
+.card-1{
+
+    background-image: url(../../../assets/logo.px.jpg);
+}
+
+.card-2{
+    background-image: url(../../../assets/portfolio.png);
+
+}
+.card-3{
+    background-image: url(../../../assets/registro.png);
+
+}
+.card-4{
+
+    background-image: url(../../../assets/turnosRotativos.png);
+}
+.card-5{
+
+    background-image: url(../../../assets/zonaFarm.jpg);
+
+}
+
+.card h2{
+    padding: 10px;
+}
+
+ .card p{
+    padding: 10px;
+}
+    .card:hover {
+        background-color: rgb(209, 201, 201);
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: all 1s ease;
+    }
+
+.espacio{
+    padding: 8px;
+}

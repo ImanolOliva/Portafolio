@@ -4,6 +4,14 @@
     padding: 10px;
     flex-wrap: wrap;
 }
+.icon{
+    transition: transform 0.3s ease;
+
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+
 .container i{
     font-size: 3rem;
     color: black;

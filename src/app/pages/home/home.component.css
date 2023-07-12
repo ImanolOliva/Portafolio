@@ -1,6 +1,7 @@
 .container{
     display:flex;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: right;
     padding-right: 0px;
     margin-right: 0px;
@@ -12,10 +13,6 @@
     font-size: 17px;
     font-feature-settings: "palt";
     padding: 15px;
-
 }
 
-@font-face {
-    font-family:"Neue-Montreal";
-    src: url('../../../assets/Neue-Montreal/NeueMontreal-Medium.otf');
-}
+
