@@ -1,5 +1,5 @@
 export const environment = {
     production: false,
-    apiUrl: 'http://localhost:8080/api',
+    apiUrl: 'https://backend-h3h4.onrender.com/',
     // otras variables de entorno para desarrollo
   };

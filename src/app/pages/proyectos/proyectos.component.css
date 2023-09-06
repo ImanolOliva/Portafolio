@@ -45,6 +45,11 @@ body{
     background-image: url(../../../assets/zonaFarm.jpg);
 
 }
+.card-6{
+
+    background-image: url(../../../assets/co-housing.png);
+
+}
 
 .card h2{
     padding: 10px;
