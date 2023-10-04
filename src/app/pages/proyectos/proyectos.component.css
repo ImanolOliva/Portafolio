@@ -50,6 +50,9 @@ body{
     background-image: url(../../../assets/co-housing.png);
 
 }
+.card-7{
+    background-image: url(../../../assets/homebanking.png);
+}
 
 .card h2{
     padding: 10px;
